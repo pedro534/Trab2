@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.edu.iftm</groupId>
+  <artifactId>lol-api</artifactId>
+  <version>0.0.1</version>
+ <dependencies>
+	    <dependency>
+	      <groupId>com.google.cloud</groupId>
+	      <artifactId>libraries-bom</artifactId>
+	      <version>8.0.0</version>
+	      <type>pom</type>
+	      <scope>import</scope>
+	     </dependency>
+	     <dependency>
+		  <groupId>com.google.http-client</groupId>
+		  <artifactId>google-http-client</artifactId>
+		  <version>1.35.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20200518</version>
+		</dependency>
+   </dependencies>
+</project>
